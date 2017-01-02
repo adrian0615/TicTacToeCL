@@ -17,11 +17,13 @@ func runTests() {
     print(nameTest2)
     
     
-    enterPlayerXSpot(prompt: "XSPOT")
+    if enterPlayerXSpot(prompt: "XSPOT") == true {
     print(currentBoard)
+    }
     
-    enterPlayerOSpot(prompt: "XSPOT")
+    if enterPlayerOSpot(prompt: "XSPOT") == true {
     print(currentBoard)
+    }
     
     let yesNo = askUserYesOrNo()
     print(String(yesNo))
@@ -31,9 +33,6 @@ func runTests() {
     let playTest = play()
     print(playTest)
     
-    
-    let multiPlayTest = playThrough()
-    print(String(describing: multiPlayTest))
     
     
 }

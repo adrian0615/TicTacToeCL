@@ -297,14 +297,14 @@ func play() -> String {
         
         if currentBoard.lastPlayed == .empty || currentBoard.lastPlayed == .o {
             
-            enterPlayerXSpot(prompt: "\(playerXTurn)\n")
+            _ = enterPlayerXSpot(prompt: "\(playerXTurn)\n")
             print("\n")
             print("\(currentBoard)\n")
             print("\n")
             
         } else {
             
-            enterPlayerOSpot(prompt: "\(playerOTurn)\n")
+            _ = enterPlayerOSpot(prompt: "\(playerOTurn)\n")
             print("\n")
             print("\(currentBoard)\n")
             print("\n")
