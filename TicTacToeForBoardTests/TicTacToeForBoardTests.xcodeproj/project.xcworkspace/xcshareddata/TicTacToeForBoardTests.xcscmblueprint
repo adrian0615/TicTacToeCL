@@ -8,15 +8,15 @@
     "97B7A834580A45D91436318ADD80553F1F17A84E" : 9223372036854775807,
     "CB31EE023BA5C83B57FFB82C5C7FE0B2C470BCA1" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "76FB6197-AF3A-4760-8539-016EBEF4E1A9",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E3B8F9CF-D400-4C6C-ACD6-A6683A77BD70",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "00B90F1D3CD762DA4474FD62DDBC8F4545A67D33" : "",
     "97B7A834580A45D91436318ADD80553F1F17A84E" : "TicTacToeCL\/",
     "CB31EE023BA5C83B57FFB82C5C7FE0B2C470BCA1" : ".."
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "TicTacToeCL",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TicTacToeForBoardTests",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TicTacToeCL.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TicTacToeForBoardTests\/TicTacToeForBoardTests.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adrian0615\/Iteration.git",

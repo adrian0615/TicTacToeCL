@@ -11,6 +11,7 @@
 		07D7A28B1E1A03DC00ADA967 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7A28A1E1A03DC00ADA967 /* Board.swift */; };
 		07D7A28D1E1A03EB00ADA967 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7A28C1E1A03EB00ADA967 /* Game.swift */; };
 		07D7A28F1E1A04A600ADA967 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7A28E1E1A04A600ADA967 /* Tests.swift */; };
+		07E52ABE1E2858510032B03D /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E52ABD1E2858510032B03D /* UserInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		07D7A28A1E1A03DC00ADA967 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		07D7A28C1E1A03EB00ADA967 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		07D7A28E1E1A04A600ADA967 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		07E52ABD1E2858510032B03D /* UserInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				07D7A28E1E1A04A600ADA967 /* Tests.swift */,
 				07D7A28A1E1A03DC00ADA967 /* Board.swift */,
 				07D7A28C1E1A03EB00ADA967 /* Game.swift */,
+				07E52ABD1E2858510032B03D /* UserInput.swift */,
 			);
 			path = TicTacToeCL;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E52ABE1E2858510032B03D /* UserInput.swift in Sources */,
 				07D7A28B1E1A03DC00ADA967 /* Board.swift in Sources */,
 				07D7A28F1E1A04A600ADA967 /* Tests.swift in Sources */,
 				07D7A28D1E1A03EB00ADA967 /* Game.swift in Sources */,
@@ -262,6 +266,7 @@
 				07D7A2891E1A03C500ADA967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

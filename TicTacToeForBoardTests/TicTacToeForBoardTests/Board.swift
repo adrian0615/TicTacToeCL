@@ -1,13 +1,12 @@
 //
 //  Board.swift
-//  TicTacToeCL
+//  TicTacToeForBoardTests
 //
-//  Created by Adrian McDaniel on 1/1/17.
+//  Created by Adrian McDaniel on 1/12/17.
 //  Copyright © 2017 dssafsfsd. All rights reserved.
 //
 
 import Foundation
-
 
 struct Board : Equatable, CustomStringConvertible {
     /// Returns a Boolean value indicating whether two values are equal.
@@ -81,78 +80,60 @@ struct Board : Equatable, CustomStringConvertible {
         }
     }
     
-    mutating func isThereAWinner(xName: String, oName: String) -> (Bool, String) {
+    mutating func isThereAWinner() -> (Bool) {
         
         if self[0, 0] == .x && self[0, 1] == .x && self[0, 2] == .x {
-            print("\(xName) wins!")
-            return (true, "\(xName) wins!")
+            return true
         } else if self[1, 0] == .x && self[1, 1] == .x && self[1, 2] == .x {
-            print("\(xName) wins!")
-            return (true, "\(xName) wins!")
+            return true
         } else if self[2, 0] == .x && self[2, 1] == .x && self[2, 2] == .x {
-            print("\(xName) wins!")
-            return (true, "\(xName) wins!")
+            return true
         } else if self[0, 0] == .x && self[1, 1] == .x && self[2, 2] == .x {
-            print("\(xName) wins!")
-            return (true, "\(xName) wins!")
+            return true
         } else if self[0, 2] == .x && self[1, 1] == .x && self[2, 0] == .x {
-            print("\(xName) wins!")
-            return (true, "\(xName) wins!")
+            return true
         } else if self[0, 0] == .x && self[1, 0] == .x && self[2, 0] == .x {
-            print("\(xName) wins!")
-            return (true, "\(xName) wins!")
-            
+            return true
         } else if self[0, 1] == .x && self[1, 1] == .x && self[2, 1] == .x {
-            print("\(xName) wins!")
-            return (true, "\(xName) wins!")
-            
+            return true
         } else if self[0, 2] == .x && self[1, 2] == .x && self[2, 2] == .x {
-            print("\(xName) wins!")
-            return (true, "\(xName) wins!")
+            return true
             
         } else if self[0, 0] == .o && self[0, 1] == .o && self[0, 2] == .o {
-            print("\(oName) wins!")
-            return (true, "\(oName) wins!")
+            return true
             
         } else if self[1, 0] == .o && self[1, 1] == .o && self[1, 2] == .o {
-            print("\(oName) wins!")
-            return (true, "\(oName) wins!")
+            return true
             
         } else if self[2, 0] == .o && self[2, 1] == .o && self[2, 2] == .o {
-            print("\(oName) wins!")
-            return (true, "\(oName) wins!")
+            return true
             
         } else if self[0, 0] == .o && self[1, 1] == .o && self[2, 2] == .o {
-            print("\(oName) wins!")
-            return (true, "\(oName) wins!")
+            return true
             
         } else if self[0, 2] == .o && self[1, 1] == .o && self[2, 0] == .o {
-            print("\(oName) wins!")
-            return (true, "\(oName) wins!")
+            return true
             
         } else if self[0, 0] == .o && self[1, 0] == .o && self[2, 0] == .o {
-            print("\(oName) wins!")
-            return (true, "\(oName) wins!")
+            return true
             
         } else if self[0, 1] == .o && self[1, 1] == .o && self[2, 1] == .o {
-            print("\(oName) wins!")
-            return (true, "\(oName) wins!")
+            return true
             
         } else if self[0, 2] == .o && self[1, 2] == .o && self[2, 2] == .o {
-            print("\(oName) wins!")
-            return (true, "\(oName) wins!")
+            return true
         } else {
-            return (false, "")
+            return false
         }
         
     }
     
-    mutating func boardFull() -> (Bool, String) {
+    mutating func boardFull() -> (Bool) {
         if self[0, 0] != .empty && self[0, 1] != .empty && self[0, 2] != .empty  && self[1, 0] != .empty && self[1, 1] != .empty && self[1, 2] != .empty && self[2, 0] != .empty && self[2, 1] != .empty && self[2, 2] != .empty {
             print("The game ended in a draw.")
-            return (true, "draw")
+            return true
         } else {
-            return (false, "")
+            return false
         }
     }
 }

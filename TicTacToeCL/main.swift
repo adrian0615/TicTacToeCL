@@ -14,4 +14,6 @@ if !arguments.isEmpty && arguments[0] == "--run-tests" {
     runTests()
 }
 
-playThrough()
+var game = TicTacToeGame(currentBoard: Board(slots: Array(repeating: .empty, count: 9), lastPlayed: .empty))
+
+game.playThrough()
